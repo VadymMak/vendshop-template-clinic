@@ -3,9 +3,10 @@ import { WHATSAPP_LINKS, CONTACT } from '@/lib/constants';
 interface FooterProps {
   locale?: string;
   legalEnabled?: boolean;
+  storeName?: string;
 }
 
-export default function Footer({ locale, legalEnabled }: FooterProps) {
+export default function Footer({ locale, legalEnabled, storeName }: FooterProps) {
   const currentYear = new Date().getFullYear();
   const showLegal = locale === 'de' && legalEnabled;
 
@@ -16,7 +17,7 @@ export default function Footer({ locale, legalEnabled }: FooterProps) {
         {/* Col 1 — Brand */}
         <div className="footer__brand">
           <p className="footer__logo">
-            <span className="footer__logo-accent">Kate</span> Barber Studio
+            {storeName ?? 'DentCare Clinic'}
           </p>
           <p className="footer__tagline">
             Prémiový barber studio v Trenčíne.<br />

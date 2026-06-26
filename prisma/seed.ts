@@ -134,7 +134,7 @@ async function main() {
     await db.service.upsert({
       where: { storeId_slug: { storeId: store.id, slug: svc.slug } },
       update: svc,
-      create: { ...svc, storeId: store.id, currency: 'EUR', active: true },
+      create: { ...svc, storeId: store.id, active: true },
     });
   }
   console.log('✅ Services (procedúry):', servicesData.length);

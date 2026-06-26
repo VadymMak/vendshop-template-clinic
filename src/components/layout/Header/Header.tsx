@@ -13,7 +13,7 @@ const NAV_LINKS = [
   { href: '/sk/#kontakt',  label: 'Kontakt' },
 ];
 
-export default function Header({ logoUrl }: { logoUrl?: string }) {
+export default function Header({ logoUrl, storeName }: { logoUrl?: string; storeName?: string }) {
   const [scrolled, setScrolled] = useState(false);
   const [visible, setVisible] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -55,7 +55,7 @@ export default function Header({ logoUrl }: { logoUrl?: string }) {
             /* eslint-disable-next-line @next/next/no-img-element */
             <img src={logoUrl} alt="Logo" className="header__logo-img" />
           ) : (
-            <>Kate <span className="header__logo-span">Barber Studio</span></>
+            <>{storeName ?? 'DentCare'}</>
           )}
         </Link>
 

@@ -419,15 +419,16 @@ model Testimonial {
 // ============ SERVICE MASTER / TEAM MEMBER ============
 
 model ServiceMaster {
-  id        String  @id @default(cuid())
-  storeId   String
-  store     Store   @relation(fields: [storeId], references: [id])
-  name      String
-  role      String
-  bio       String?
-  photo     String?
-  sortOrder Int     @default(0)
-  active    Boolean @default(true)
+  id             String  @id @default(cuid())
+  storeId        String
+  store          Store   @relation(fields: [storeId], references: [id])
+  name           String
+  role           String
+  specialization String  @default("")
+  bio            String?
+  photo          String?
+  sortOrder      Int     @default(0)
+  active         Boolean @default(true)
 
   appointments Appointment[]
 

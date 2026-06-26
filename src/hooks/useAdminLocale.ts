@@ -4,10 +4,10 @@ import { useState, useEffect } from 'react';
 import type { AdminLocale } from '@/lib/admin-i18n';
 
 const COOKIE_KEY = 'admin_locale';
-const VALID_LOCALES: AdminLocale[] = ['sk', 'en', 'uk', 'cs', 'de'];
+const VALID_LOCALES: AdminLocale[] = ['en', 'sk', 'cs', 'de'];
 
 export function useAdminLocale() {
-  const [locale, setLocale] = useState<AdminLocale>('sk');
+  const [locale, setLocale] = useState<AdminLocale>('en');
 
   useEffect(() => {
     const saved = document.cookie

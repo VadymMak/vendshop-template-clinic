@@ -426,11 +426,10 @@ export default function AdminSidebar({ storeName, vertical }: AdminSidebarProps)
           className={styles.localeSwitcher}
           aria-label="Admin language"
         >
-          <option value="sk">🇸🇰 SK</option>
           <option value="en">🇬🇧 EN</option>
-          <option value="cs">🇨🇿 CS</option>
+          <option value="sk">🇸🇰 SK</option>
           <option value="de">🇩🇪 DE</option>
-          <option value="uk">🇺🇦 UK</option>
+          <option value="cs">🇨🇿 CS</option>
         </select>
 
         <button type="button" className={styles.logout} onClick={handleLogout}>

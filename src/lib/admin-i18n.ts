@@ -1,4 +1,4 @@
-export type AdminLocale = 'sk' | 'en' | 'uk' | 'cs' | 'de';
+export type AdminLocale = 'en' | 'sk' | 'cs' | 'de';
 
 export interface AdminTranslations {
   nav: {
@@ -518,11 +518,10 @@ const EN: AdminTranslations = {
 // ─── Fallback locales ──────────────────────────────────────────────────────
 // cs ≈ sk (mutually intelligible), uk/de fall back to sk until translated
 export const ADMIN_TRANSLATIONS: Record<AdminLocale, AdminTranslations> = {
-  sk: SK,
   en: EN,
+  sk: SK,
   cs: SK,
   de: EN,
-  uk: SK,
 };
 
 export function getAdminT(locale: AdminLocale): AdminTranslations {

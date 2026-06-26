@@ -4,7 +4,7 @@ import { cookies } from 'next/headers';
 import { db } from '@/lib/db';
 import { verifyAdminToken, getAdminSecret, ADMIN_COOKIE } from '@/lib/adminAuth';
 
-const LOCALES = ['en', 'uk', 'ru', 'de', 'sk', 'cs', 'pl'] as const;
+const LOCALES = ['en', 'sk', 'de', 'cs'] as const;
 
 function revalidateTestimonialPages() {
   for (const locale of LOCALES) {

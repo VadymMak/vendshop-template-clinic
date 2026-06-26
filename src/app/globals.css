@@ -1,22 +1,22 @@
 
-/* ===== CRITICAL: force dark base ===== */
+/* ===== CLINIC: light base ===== */
 html, body {
-  background-color: #0A0A0A !important;
-  color: #FFFFFF;
+  background-color: #f8fafc !important;
+  color: #0f172a;
   min-height: 100vh;
 }
 
 :root {
-  --color-bg: #0A0A0A;
-  --color-bg-alt: #111111;
-  --color-bg-card: #161616;
-  --color-gold: #C96030;
-  --color-gold-dark: #A84E25;
-  --color-gold-light: #E07848;
-  --color-text-primary: #FFFFFF;
-  --color-text-secondary: #B0A898;
-  --color-text-muted: #666666;
-  --color-border: rgba(201, 96, 48, 0.15);
+  --color-bg: #f8fafc;
+  --color-bg-alt: #f1f5f9;
+  --color-bg-card: #ffffff;
+  --color-gold: #0ea5e9;
+  --color-gold-dark: #0284c7;
+  --color-gold-light: #e0f2fe;
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #475569;
+  --color-text-muted: #94a3b8;
+  --color-border: rgba(14, 165, 233, 0.15);
   --color-whatsapp: #25D366;
   --color-whatsapp-dark: #20BD5A;
   --transition: 0.3s ease;
@@ -434,8 +434,8 @@ body::after {
   align-items: center;
   gap: 0.5rem;
   padding: 0.75rem 1.75rem;
-  border: 1px solid var(--color-gold, #C96030);
-  color: var(--color-gold, #C96030);
+  border: 1px solid var(--color-gold, #0ea5e9);
+  color: var(--color-gold, #0ea5e9);
   background: transparent;
   font-size: 0.8rem;
   font-weight: 700;
@@ -447,7 +447,7 @@ body::after {
   font-family: var(--font-body);
 }
 .btn-outline:hover {
-  background: var(--color-gold, #C96030);
+  background: var(--color-gold, #0ea5e9);
   color: #ffffff;
 }
 
@@ -853,7 +853,7 @@ body::after {
 .booking__field textarea {
   width: 100%;
   background: rgba(22, 22, 22, 0.8);
-  border: 1px solid rgba(201, 96, 48, 0.2);
+  border: 1px solid rgba(14, 165, 233, 0.2);
   border-radius: 4px;
   padding: 0.85rem 1rem;
   color: var(--color-text-primary, #FFFFFF);
@@ -867,7 +867,7 @@ body::after {
 .booking__field textarea { resize: vertical; min-height: 100px; }
 .booking__field input:focus,
 .booking__field textarea:focus {
-  border-color: var(--color-gold, #C96030);
+  border-color: var(--color-gold, #0ea5e9);
   background: rgba(30, 30, 30, 0.9);
 }
 .booking__field input::placeholder,
@@ -890,7 +890,7 @@ body::after {
 .booking__textarea {
   width: 100%;
   background: rgba(22, 22, 22, 0.8);
-  border: 1px solid rgba(201, 96, 48, 0.2);
+  border: 1px solid rgba(14, 165, 233, 0.2);
   color: var(--color-text-primary);
   padding: 0.85rem 1rem;
   font-family: var(--font-body);
@@ -913,7 +913,7 @@ body::after {
 
 .booking__picker-wrap {
   background: rgba(22, 22, 22, 0.6);
-  border: 1px solid rgba(201, 96, 48, 0.2);
+  border: 1px solid rgba(14, 165, 233, 0.2);
   padding: 1.25rem;
   backdrop-filter: blur(4px);
 }
@@ -1277,7 +1277,7 @@ body::after {
   text-transform: uppercase;
   margin-bottom: 0.75rem;
 }
-.footer__logo-accent { color: #C96030; }
+.footer__logo-accent { color: #0ea5e9; }
 .footer__tagline {
   color: #6B7280;
   font-size: 0.875rem;
@@ -1293,13 +1293,13 @@ body::after {
   color: #9CA3AF;
   transition: border-color var(--transition), color var(--transition);
 }
-.footer__social-link:hover { color: #C96030; border-color: #C96030; }
+.footer__social-link:hover { color: #0ea5e9; border-color: #0ea5e9; }
 .footer__heading {
   font-size: 0.7rem;
   font-weight: 600;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  color: #C96030;
+  color: #0ea5e9;
   margin-bottom: 1.25rem;
 }
 .footer__links { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
@@ -1311,9 +1311,9 @@ body::after {
 .footer__closed { color: #4B5563 !important; }
 .footer__contact { list-style: none; display: flex; flex-direction: column; gap: 0.75rem; }
 .footer__contact li { display: flex; align-items: flex-start; gap: 0.6rem; color: #9CA3AF; font-size: 0.875rem; }
-.footer__contact svg { flex-shrink: 0; margin-top: 2px; color: #C96030; }
+.footer__contact svg { flex-shrink: 0; margin-top: 2px; color: #0ea5e9; }
 .footer__contact a { color: #9CA3AF; transition: color 0.2s; text-decoration: none; }
-.footer__contact a:hover { color: #C96030; }
+.footer__contact a:hover { color: #0ea5e9; }
 .footer__bottom {
   border-top: 1px solid rgba(255,255,255,0.06);
   max-width: 1280px;
@@ -1401,7 +1401,7 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: var(--color-gold, #C96030);
+  background: var(--color-gold, #0ea5e9);
   color: #fff;
   display: flex;
   align-items: center;
@@ -1434,8 +1434,8 @@ body {
   margin: 0;
 }
 .testimonial-card__reply {
-  background: rgba(201, 96, 48, 0.06);
-  border-left: 2px solid var(--color-gold, #C96030);
+  background: rgba(14, 165, 233, 0.06);
+  border-left: 2px solid var(--color-gold, #0ea5e9);
   border-radius: 0 8px 8px 0;
   padding: 0.875rem 1rem;
   display: flex;
@@ -1446,7 +1446,7 @@ body {
   display: flex;
   align-items: center;
   gap: 0.4rem;
-  color: var(--color-gold, #C96030);
+  color: var(--color-gold, #0ea5e9);
   font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -1547,7 +1547,7 @@ body {
   font-size: 0.875rem;
   margin-bottom: 1.25rem;
 }
-.testimonials-page__logged-as strong { color: var(--color-gold, #C96030); }
+.testimonials-page__logged-as strong { color: var(--color-gold, #0ea5e9); }
 .testimonials-page__form { display: flex; flex-direction: column; gap: 1.25rem; }
 .testimonials-page__rating { display: flex; gap: 0.25rem; margin-top: 0.25rem; }
 .testimonials-page__star {
@@ -1560,8 +1560,8 @@ body {
   line-height: 1;
   padding: 0;
 }
-.testimonials-page__star.active { color: var(--color-gold, #C96030); }
-.testimonials-page__star:hover { transform: scale(1.15); color: var(--color-gold, #C96030); }
+.testimonials-page__star.active { color: var(--color-gold, #0ea5e9); }
+.testimonials-page__star:hover { transform: scale(1.15); color: var(--color-gold, #0ea5e9); }
 @media (max-width: 700px) { .testimonials-page__grid { grid-template-columns: 1fr; } }
 
 .testimonials-list__header {
@@ -1581,7 +1581,7 @@ body {
   align-items: center;
   gap: 0.35rem;
 }
-.testimonials-submit__back:hover { color: var(--color-gold, #C96030); }
+.testimonials-submit__back:hover { color: var(--color-gold, #0ea5e9); }
 
 /* ── Admin page layout ── */
 .admin-page {
@@ -1626,7 +1626,7 @@ body {
 .admin-testimonials__reply { display: flex; flex-direction: column; gap: 0.5rem; }
 .admin-testimonials__reply label {
   font-size: 0.75rem; text-transform: uppercase;
-  letter-spacing: 0.08em; color: var(--color-gold, #C96030);
+  letter-spacing: 0.08em; color: var(--color-gold, #0ea5e9);
 }
 .admin-testimonials__reply textarea {
   background: rgba(22,22,22,0.8);
@@ -1644,11 +1644,11 @@ body {
   cursor: pointer; font-size: 0.85rem; transition: all 0.2s;
 }
 .admin-filter__btn.active {
-  background: var(--color-gold, #C96030); color: #fff;
-  border-color: var(--color-gold, #C96030);
+  background: var(--color-gold, #0ea5e9); color: #fff;
+  border-color: var(--color-gold, #0ea5e9);
 }
 .admin-badge {
-  background: var(--color-gold, #C96030); color: #fff;
+  background: var(--color-gold, #0ea5e9); color: #fff;
   font-size: 0.75rem; border-radius: 10px;
   padding: 0.1rem 0.5rem; margin-left: 0.5rem; vertical-align: middle;
 }
@@ -1663,7 +1663,7 @@ body {
 /* ── Admin Services page ── */
 .admin-services__form {
   background: rgba(255,255,255,0.03);
-  border: 1px solid var(--color-gold, #C96030);
+  border: 1px solid var(--color-gold, #0ea5e9);
   border-radius: 10px;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
@@ -1702,7 +1702,7 @@ body {
 .admin-services__desc { color: var(--color-text-muted, #666); font-size: 0.8rem; }
 .admin-services__meta { color: var(--color-text-muted, #666); font-size: 0.75rem; }
 .admin-services__price {
-  color: var(--color-gold, #C96030);
+  color: var(--color-gold, #0ea5e9);
   font-size: 1.2rem;
   font-weight: 700;
   min-width: 52px;
@@ -1810,6 +1810,6 @@ body {
 
 /* ── Hero chips & price anchor ── */
 .hero__chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.25rem; }
-.hero__chip { background: rgba(var(--color-primary-rgb, 201,163,71), 0.12); border: 1px solid rgba(var(--color-primary-rgb, 201,163,71), 0.3); color: var(--color-text); border-radius: 2rem; padding: 0.3rem 0.75rem; font-size: 0.8rem; font-weight: 500; }
+.hero__chip { background: rgba(var(--color-primary-rgb, 14,165,233), 0.12); border: 1px solid rgba(var(--color-primary-rgb, 14,165,233), 0.3); color: var(--color-text); border-radius: 2rem; padding: 0.3rem 0.75rem; font-size: 0.8rem; font-weight: 500; }
 .hero__price-anchor { font-size: 0.875rem; color: var(--color-text-muted); margin-bottom: 1.25rem; }
 .hero__price-anchor strong { color: var(--color-primary); font-size: 1rem; }

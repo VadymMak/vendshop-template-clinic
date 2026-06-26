@@ -7,6 +7,7 @@ import { routing, type Locale } from '@/i18n/routing';
 import Header from '@/components/layout/Header/Header';
 import Footer from '@/components/layout/Footer/Footer';
 import CookieBanner from '@/components/ui/CookieBanner/CookieBanner';
+import { Background3D } from '@/components/ui/Background3D/Background3D';
 import { getStoreConfig } from '@/lib/store-config';
 import { themeToCssVars, DARK_THEME } from '@/lib/theme';
 import { db } from '@/lib/db';
@@ -126,6 +127,7 @@ export default async function LocaleLayout({
         <link rel="dns-prefetch" href="https://conuflmgcnkfqjmncsth.public.blob.vercel-storage.com" />
       </head>
       <body style={cssVars as React.CSSProperties}>
+        <Background3D />
         <NextIntlClientProvider messages={messages}>
           <CustomerProvider>
             <VerticalProvider config={config.vertical}>

@@ -1844,3 +1844,43 @@ body::after {
   font-size: 0.95rem;
   margin-top: 0.5rem;
 }
+
+/* ===== 3D ANIMATED BACKGROUND — GLASS EFFECT ===== */
+/* Canvas sits at z-index 0; sections at z-index 1 show through */
+
+section {
+  position: relative;
+  z-index: 1;
+}
+
+/* Hero — fully transparent so canvas is visible beneath */
+.hero {
+  background: transparent !important;
+}
+
+/* Hero content panel — frosted glass */
+.hero__content {
+  background: rgba(248, 250, 252, 0.90) !important;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+/* Light-bg sections */
+.services,
+.team,
+.about {
+  background: rgba(248, 250, 252, 0.85) !important;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+/* Alt-bg sections */
+.stats-bar,
+.why-us,
+.gallery,
+.testimonials,
+.booking {
+  background: rgba(241, 245, 249, 0.82) !important;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}

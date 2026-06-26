@@ -27,7 +27,7 @@
     "servicesGallery": "Gallery",
     "servicesContact": "Contact",
     "servicesBookNow": "Book Now",
-    "servicesSubtitle": "Studio"
+    "servicesSubtitle": "Clinic"
   },
   "categories": {
     "title": "Categories",
@@ -178,7 +178,7 @@
     "wholesale": "Wholesale Terms",
     "deliveryEU": "Fast EU-wide shipping",
     "deliveryB2B": "Bulk orders & custom delivery",
-    "aboutDescServices": "Professional barbershop and hair salon in the heart of Trenčín. Men's haircuts, beard grooming, and styling at the highest level.",
+    "aboutDescServices": "Professional dental clinic in the heart of Bratislava. Modern treatments, experienced doctors, fair prices.",
     "servicesNavTitle": "Navigation",
     "servicesHoursTitle": "Working Hours",
     "servicesClosed": "Closed",
@@ -353,17 +353,17 @@
     "seoText": "Buying {category} in Ukraine is easy with ElectroMarket. Our catalog features a wide range from leading global brands at the best prices.\n\nWe offer an official warranty, fast Nova Poshta delivery across the country, and convenient payment options. Order online and get your tool delivered within 1–2 days."
   },
   "hero": {
-    "tagline": "AUTHENTIC ITALIAN CUISINE",
-    "title": "Taste of Italy in",
-    "titleAccent": "Every",
-    "titleEnd": "Bite",
-    "subtitle": "Family recipes from Naples since 1987. Fresh pasta, wood-fired pizza, and the finest wines — served with amore.",
-    "bookTable": "Book a Table",
-    "viewMenu": "View Menu",
-    "todaysSpecial": "TODAY'S SPECIAL",
-    "orderNow": "Order Now",
-    "googleRating": "4.8 on Google",
-    "openUntil": "Open until 23:00"
+    "tagline": "PROFESSIONAL DENTAL CARE",
+    "title": "DentCare",
+    "titleAccent": "Clinic",
+    "titleEnd": "",
+    "subtitle": "Professional dental care in the heart of Bratislava. Modern equipment, experienced doctors, friendly atmosphere.",
+    "bookTable": "Book Appointment",
+    "viewMenu": "Our Treatments",
+    "todaysSpecial": "AVAILABLE SLOTS",
+    "orderNow": "Book",
+    "googleRating": "4.9 on Google",
+    "openUntil": "Open until 18:00"
   },
   "menuCategories": {
     "tagline": "— OUR MENU —",
@@ -487,12 +487,12 @@
     "shoe_pill3": "30-day easy returns"
   },
   "About": {
-    "label": "Our Story",
-    "title": "A Taste of Italy in Every Bite",
-    "text": "For over 15 years, Adriano has been bringing the authentic flavors of Italy to our guests. Our chef hand-selects the finest ingredients from trusted Italian suppliers, creating dishes that honor tradition while embracing modern culinary artistry. Every meal at Adriano is a journey through the heart of Italian cuisine.",
-    "yearsLabel": "Years of Excellence",
-    "dishesLabel": "Signature Dishes",
-    "guestsLabel": "Happy Guests"
+    "label": "About Us",
+    "title": "Your smile is our priority",
+    "text": "DentCare Clinic has been providing modern dental care in the heart of Bratislava since 2014. Our team of experienced specialists takes care of your dental health using the latest technologies and gentle treatment methods.",
+    "yearsLabel": "Years of Experience",
+    "dishesLabel": "Treatments per Year",
+    "guestsLabel": "Happy Patients"
   },
   "promoBanner": {
     "label": "SUMMER COLLECTION 2026",
@@ -553,44 +553,54 @@
     "greeting": "Hello, {name}"
   },
   "services": {
-    "title": "Our Services",
-    "haircut": "Haircut",
-    "beard": "Beard Trim",
-    "hairBeard": "Hair + Beard",
-    "styling": "Styling",
-    "bookNow": "Book Now",
+    "title": "Our Treatments",
+    "haircut": "Consultation",
+    "beard": "Dental Check-up",
+    "hairBeard": "Teeth Cleaning",
+    "styling": "Teeth Whitening",
+    "bookNow": "Book Appointment",
     "duration": "{min} min",
     "from": "from"
   },
   "booking": {
     "title": "Book Your Appointment",
-    "selectService": "Choose Service",
-    "selectMaster": "Choose Master",
+    "selectService": "Choose Treatment",
+    "selectMaster": "Choose Doctor",
     "selectDate": "Select Date",
     "selectTime": "Select Time",
     "yourName": "Your Name",
     "yourPhone": "Phone Number",
     "note": "Note (optional)",
     "submit": "Book Appointment",
-    "whatsappFallback": "Or book via WhatsApp",
+    "whatsappFallback": "Or via WhatsApp",
     "confirmation": "Appointment confirmed! We will contact you shortly."
   },
   "team": {
-    "title": "Our Masters"
+    "title": "Our Doctors"
   },
   "gallery": {
-    "title": "Our Work"
+    "title": "Our Clinic"
   },
   "courses": {
-    "title": "Learn from the masters",
-    "enroll": "Enroll in course",
+    "title": "Group Consultations",
+    "enroll": "Register",
     "preview": "Free preview",
-    "noCourses": "Courses coming soon.",
-    "buyNow": "Buy course",
-    "accessGranted": "You have access to this course",
-    "lessonContent": "Lesson content",
-    "buyToUnlock": "Purchase the course to unlock video and materials",
-    "navLabel": "Courses"
+    "noCourses": "Consultations coming soon.",
+    "buyNow": "Reserve a spot",
+    "accessGranted": "You have access to this consultation",
+    "lessonContent": "Consultation content",
+    "buyToUnlock": "Reserve a spot to access materials",
+    "navLabel": "Consultations"
+  },
+  "insurance": {
+    "label": "INSURANCE",
+    "title": "We accept insurance",
+    "subtitle": "Contact us to verify your insurance coverage",
+    "vzp": "VZP",
+    "cpzp": "ČPZP",
+    "union": "Union",
+    "dovera": "Dôvera",
+    "individual": "Private insurance"
   },
   "CookieBanner": {
     "ariaLabel": "Cookie consent",

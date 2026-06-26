@@ -27,7 +27,7 @@
     "servicesGallery": "Galerie",
     "servicesContact": "Kontakt",
     "servicesBookNow": "Jetzt buchen",
-    "servicesSubtitle": "Studio"
+    "servicesSubtitle": "Klinik"
   },
   "categories": {
     "title": "Kategorien",
@@ -178,7 +178,7 @@
     "wholesale": "Großhandelsbedingungen",
     "deliveryEU": "Schneller EU-weiter Versand",
     "deliveryB2B": "Großbestellungen & individuelle Lieferung",
-    "aboutDescServices": "Professioneller Barbershop und Friseursalon im Herzen von Trenčín. Herrenhaarschnitte, Bartpflege und Styling auf höchstem Niveau.",
+    "aboutDescServices": "Professionelle Zahnklinik im Herzen Bratislavas. Moderne Behandlungen, erfahrene Ärzte, faire Preise.",
     "servicesNavTitle": "Navigation",
     "servicesHoursTitle": "Öffnungszeiten",
     "servicesClosed": "Geschlossen",
@@ -353,17 +353,17 @@
     "seoText": "{category} in der Ukraine kaufen — mit ElectroMarket ganz einfach. Unser Katalog bietet eine große Auswahl führender Weltmarken zu besten Preisen.\n\nWir bieten offizielle Garantie, schnelle Lieferung mit Nova Poshta im ganzen Land und bequeme Zahlungsmethoden. Bestellen Sie online — Ihr Werkzeug wird innerhalb von 1–2 Tagen geliefert."
   },
   "hero": {
-    "tagline": "AUTHENTISCHE ITALIENISCHE KÜCHE",
-    "title": "Geschmack Italiens in",
-    "titleAccent": "Jedem",
-    "titleEnd": "Bissen",
-    "subtitle": "Familienrezepte aus Neapel seit 1987. Frische Pasta, Pizza aus dem Holzofen und die besten Weine — serviert con amore.",
-    "bookTable": "Tisch reservieren",
-    "viewMenu": "Speisekarte",
-    "todaysSpecial": "TAGESGERICHT",
-    "orderNow": "Jetzt bestellen",
-    "googleRating": "4.8 bei Google",
-    "openUntil": "Geöffnet bis 23:00"
+    "tagline": "PROFESSIONELLE ZAHNMEDIZIN",
+    "title": "DentCare",
+    "titleAccent": "Clinic",
+    "titleEnd": "",
+    "subtitle": "Professionelle Zahnpflege im Herzen Bratislavas. Modernste Ausstattung, erfahrene Ärzte, angenehme Atmosphäre.",
+    "bookTable": "Termin buchen",
+    "viewMenu": "Unsere Behandlungen",
+    "todaysSpecial": "FREIE TERMINE",
+    "orderNow": "Buchen",
+    "googleRating": "4.9 bei Google",
+    "openUntil": "Geöffnet bis 18:00"
   },
   "menuCategories": {
     "tagline": "— UNSERE SPEISEKARTE —",
@@ -487,12 +487,12 @@
     "shoe_pill3": "30 Tage einfache Rückgabe"
   },
   "About": {
-    "label": "Unsere Geschichte",
-    "title": "Ein Geschmack Italiens in Jedem Bissen",
-    "text": "Seit über 15 Jahren bringt Adriano seinen Gästen die authentischen Aromen Italiens. Unser Küchenchef wählt persönlich die besten Zutaten von vertrauenswürdigen italienischen Lieferanten aus und kreiert Gerichte, die die Tradition ehren und gleichzeitig moderne Kochkunst umarmen.",
+    "label": "Über uns",
+    "title": "Ihr Lächeln ist unsere Priorität",
+    "text": "DentCare Clinic bietet seit 2014 moderne Zahnmedizin im Herzen Bratislavas. Unser Team erfahrener Spezialisten kümmert sich um Ihre Zahngesundheit mit modernster Technologie und schonenden Behandlungsmethoden.",
     "yearsLabel": "Jahre Erfahrung",
-    "dishesLabel": "Signature-Gerichte",
-    "guestsLabel": "Zufriedene Gäste"
+    "dishesLabel": "Behandlungen jährlich",
+    "guestsLabel": "Zufriedene Patienten"
   },
   "promoBanner": {
     "label": "SOMMERKOLLEKTION 2026",
@@ -553,44 +553,54 @@
     "greeting": "Hallo, {name}"
   },
   "services": {
-    "title": "Unsere Leistungen",
-    "haircut": "Haarschnitt",
-    "beard": "Bartpflege",
-    "hairBeard": "Haare + Bart",
-    "styling": "Styling",
-    "bookNow": "Jetzt buchen",
+    "title": "Unsere Behandlungen",
+    "haircut": "Beratung",
+    "beard": "Zahnarztuntersuchung",
+    "hairBeard": "Zahnreinigung",
+    "styling": "Zahnaufhellung",
+    "bookNow": "Termin buchen",
     "duration": "{min} Min",
     "from": "ab"
   },
   "booking": {
-    "title": "Termin buchen",
-    "selectService": "Leistung wählen",
-    "selectMaster": "Barber wählen",
+    "title": "Termin vereinbaren",
+    "selectService": "Behandlung wählen",
+    "selectMaster": "Arzt wählen",
     "selectDate": "Datum wählen",
     "selectTime": "Uhrzeit wählen",
     "yourName": "Ihr Name",
     "yourPhone": "Telefonnummer",
     "note": "Anmerkung (optional)",
     "submit": "Termin buchen",
-    "whatsappFallback": "Oder per WhatsApp buchen",
+    "whatsappFallback": "Oder per WhatsApp",
     "confirmation": "Termin bestätigt! Wir melden uns bald."
   },
   "team": {
-    "title": "Unsere Meister"
+    "title": "Unsere Ärzte"
   },
   "gallery": {
-    "title": "Unsere Arbeit"
+    "title": "Unsere Klinik"
   },
   "courses": {
-    "title": "Von Meistern lernen",
-    "enroll": "Kurs buchen",
+    "title": "Gruppenberatungen",
+    "enroll": "Anmelden",
     "preview": "Kostenlose Vorschau",
-    "noCourses": "Kurse kommen bald.",
-    "buyNow": "Kurs kaufen",
-    "accessGranted": "Sie haben Zugang zu diesem Kurs",
-    "lessonContent": "Kursinhalt",
-    "buyToUnlock": "Kaufen Sie den Kurs für Zugang zu Video und Materialien",
-    "navLabel": "Kurse"
+    "noCourses": "Beratungen folgen bald.",
+    "buyNow": "Platz reservieren",
+    "accessGranted": "Sie haben Zugang zur Beratung",
+    "lessonContent": "Beratungsinhalt",
+    "buyToUnlock": "Reservieren Sie einen Platz für Zugang zu Materialien",
+    "navLabel": "Beratungen"
+  },
+  "insurance": {
+    "label": "VERSICHERUNG",
+    "title": "Wir akzeptieren Versicherungen",
+    "subtitle": "Kontaktieren Sie uns zur Überprüfung Ihrer Versicherung",
+    "vzp": "VZP",
+    "cpzp": "ČPZP",
+    "union": "Union",
+    "dovera": "Dôvera",
+    "individual": "Private Krankenversicherung"
   },
   "CookieBanner": {
     "ariaLabel": "Cookie-Zustimmung",

@@ -27,7 +27,7 @@
     "servicesGallery": "Galéria",
     "servicesContact": "Kontakt",
     "servicesBookNow": "Rezervovať",
-    "servicesSubtitle": "Studio"
+    "servicesSubtitle": "Klinika"
   },
   "categories": {
     "title": "Kategórie",
@@ -178,7 +178,7 @@
     "wholesale": "Veľkoobchodné podmienky",
     "deliveryEU": "Rýchle doručenie po celej EÚ",
     "deliveryB2B": "Hromadné objednávky a individuálna dodávka",
-    "aboutDescServices": "Profesionálna barbershop a vlasový salón v centre Trenčína. Pánske strihy, bradenie a styling na najvyššej úrovni.",
+    "aboutDescServices": "Profesionálna stomatologická klinika v centre Bratislavy. Moderné ošetrenia, skúsení doktori, prijateľné ceny.",
     "servicesNavTitle": "Navigácia",
     "servicesHoursTitle": "Pracovná doba",
     "servicesClosed": "Zatvorené",
@@ -353,17 +353,17 @@
     "seoText": "Kúpiť {category} na Ukrajine je s ElectroMarket jednoduché. Náš katalóg ponúka široký sortiment od popredných svetových značiek za najlepšie ceny.\n\nPonúkame oficiálnu záruku, rýchle doručenie Nova Pošta po celej krajine a pohodlné spôsoby platby. Objednávajte online — vaše náradie doručíme za 1–2 dni."
   },
   "hero": {
-    "tagline": "AUTENTICKÁ TALIANSKA KUCHYŇA",
-    "title": "Chuť Talianska v",
-    "titleAccent": "Každom",
-    "titleEnd": "Súste",
-    "subtitle": "Rodinné recepty z Neapola od roku 1987. Čerstvé cestoviny, pizza z dreva a najlepšie vína — podávané s láskou.",
-    "bookTable": "Rezervovať stôl",
-    "viewMenu": "Zobraziť menu",
-    "todaysSpecial": "DENNÉ ŠPECIÁL",
+    "tagline": "PROFESIONÁLNA STOMATOLÓGIA",
+    "title": "DentCare",
+    "titleAccent": "Clinic",
+    "titleEnd": "",
+    "subtitle": "Profesionálna starostlivosť o zuby v centre Bratislavy. Moderné vybavenie, skúsení doktori, príjemné prostredie.",
+    "bookTable": "Objednať termín",
+    "viewMenu": "Naše procedúry",
+    "todaysSpecial": "VOĽNÉ TERMÍNY",
     "orderNow": "Objednať",
-    "googleRating": "4.8 na Google",
-    "openUntil": "Otvorené do 23:00"
+    "googleRating": "4.9 na Google",
+    "openUntil": "Otvorené do 18:00"
   },
   "menuCategories": {
     "tagline": "— NAŠE MENU —",
@@ -427,8 +427,8 @@
   },
   "Gallery": {
     "label": "Galéria",
-    "title": "Naša Atmosféra",
-    "subtitle": "Nahliadnite do Adriano — kde každý detail rozpráva príbeh talianskej vášne"
+    "title": "Naša Klinika",
+    "subtitle": "Nahliadnite do DentCare — moderné priestory, sterilné prostredie, priateľský tím"
   },
   "heroFood": {
     "badge": "Doručujeme po celej Európe",
@@ -487,12 +487,12 @@
     "shoe_pill3": "30 dní jednoduché vrátenie"
   },
   "About": {
-    "label": "Náš Príbeh",
-    "title": "Chuť Talianska v Každom Súste",
-    "text": "Už viac ako 15 rokov prináša Adriano hosťom autentické chute Talianska. Náš šéfkuchár osobne vyberá tie najlepšie ingrediencie od overených talianskych dodávateľov a vytvára jedlá, ktoré ctia tradíciu a zároveň prijímajú moderné kulinárske umenie.",
+    "label": "O Klinike",
+    "title": "Váš úsmev je naša priorita",
+    "text": "DentCare Clinic poskytuje modernú stomatologickú starostlivosť v centre Bratislavy od roku 2014. Tím skúsených špecialistov sa stará o zdravie vašich zubov s využitím najnovších technológií a šetrných postupov.",
     "yearsLabel": "Rokov Skúseností",
-    "dishesLabel": "Firmových Jedál",
-    "guestsLabel": "Spokojných Hostí"
+    "dishesLabel": "Procedúr Ročne",
+    "guestsLabel": "Spokojných Pacientov"
   },
   "promoBanner": {
     "label": "LETNÁ KOLEKCIA 2026",
@@ -553,44 +553,54 @@
     "greeting": "Ahoj, {name}"
   },
   "services": {
-    "title": "Naše služby",
-    "haircut": "Pánsky strih",
-    "beard": "Úprava brady",
-    "hairBeard": "Strih + brada",
-    "styling": "Styling",
-    "bookNow": "Rezervovať",
+    "title": "Naše procedúry",
+    "haircut": "Konzultácia",
+    "beard": "Zubná prehliadka",
+    "hairBeard": "Čistenie zubov",
+    "styling": "Bielenie zubov",
+    "bookNow": "Objednať termín",
     "duration": "{min} min",
     "from": "od"
   },
   "booking": {
-    "title": "Rezervujte si termín",
-    "selectService": "Vyberte službu",
-    "selectMaster": "Vyberte barbera",
+    "title": "Objednajte si termín",
+    "selectService": "Vyberte procedúru",
+    "selectMaster": "Vyberte doktora",
     "selectDate": "Vyberte dátum",
     "selectTime": "Vyberte čas",
     "yourName": "Vaše meno",
     "yourPhone": "Telefónne číslo",
     "note": "Poznámka (nepovinné)",
-    "submit": "Rezervovať",
+    "submit": "Objednať termín",
     "whatsappFallback": "Alebo cez WhatsApp",
-    "confirmation": "Rezervácia potvrdená! Ozveme sa vám."
+    "confirmation": "Termín potvrdený! Ozveme sa vám."
   },
   "team": {
-    "title": "Naši majstri"
+    "title": "Naši doktori"
   },
   "gallery": {
-    "title": "Naša práca"
+    "title": "Naša klinika"
   },
   "courses": {
-    "title": "Učte sa od majstrov",
-    "enroll": "Prihlásiť sa na kurz",
+    "title": "Skupinové konzultácie",
+    "enroll": "Prihlásiť sa",
     "preview": "Ukážka zadarmo",
-    "noCourses": "Kurzy čoskoro pribudnú.",
-    "buyNow": "Kúpiť kurz",
-    "accessGranted": "Máte prístup k tomuto kurzu",
-    "lessonContent": "Obsah lekcie",
-    "buyToUnlock": "Zakúpte kurz pre prístup k videu a materiálom",
-    "navLabel": "Kurzy"
+    "noCourses": "Konzultácie čoskoro pribudnú.",
+    "buyNow": "Rezervovať miesto",
+    "accessGranted": "Máte prístup ku konzultácii",
+    "lessonContent": "Obsah konzultácie",
+    "buyToUnlock": "Rezervujte miesto pre prístup k materiálom",
+    "navLabel": "Konzultácie"
+  },
+  "insurance": {
+    "label": "POISTENIE",
+    "title": "Akceptujeme poistenie",
+    "subtitle": "Kontaktujte nás pre overenie vášho poistenia",
+    "vzp": "VZP",
+    "cpzp": "ČPZP",
+    "union": "Union",
+    "dovera": "Dôvera",
+    "individual": "Komerčné poistenie"
   },
   "CookieBanner": {
     "ariaLabel": "Súhlas s cookies",

@@ -1886,3 +1886,12 @@ section {
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
 }
+
+/* ─── ADMIN UNIVERSAL LIGHT MODE ─────────────────────────────── */
+/* Catch-all: ensure any admin page/card/row not covered above gets light theme */
+[class*="adminPage"],
+[class*="adminContent"],
+[class*="adminMain"] {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}

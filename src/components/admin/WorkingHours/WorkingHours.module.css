@@ -3,7 +3,7 @@
 .title {
   font-size: 18px;
   font-weight: 700;
-  color: #0f172a;
+  color: var(--color-text);
   margin: 0 0 6px;
 }
 
@@ -49,7 +49,7 @@
   border-radius: 6px;
   font-size: 14px;
   font-family: inherit;
-  color: #0f172a;
+  color: var(--color-text);
   background: #fff;
   cursor: pointer;
 }

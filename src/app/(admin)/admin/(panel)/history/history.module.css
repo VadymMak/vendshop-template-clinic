@@ -155,11 +155,11 @@
   color: var(--admin-text-muted, #888);
 }
 
-.badge_completed  { background: #1a3a1a; color: #4ade80; }
-.badge_confirmed  { background: #1a2a3a; color: #60a5fa; }
+.badge_completed  { background: rgba(22,163,74,0.12); color: #4ade80; }
+.badge_confirmed  { background: rgba(14,165,233,0.12); color: #0284c7; }
 .badge_pending    { background: #3a2a1a; color: #fbbf24; }
 .badge_cancelled  { background: #3a1a1a; color: #f87171; }
-.badge_no_show    { background: #2a1a2a; color: #c084fc; }
+.badge_no_show    { background: rgba(100,116,139,0.12); color: var(--color-text-muted); }
 
 /* ── States ───────────────────────────────────── */
 .loadingText,

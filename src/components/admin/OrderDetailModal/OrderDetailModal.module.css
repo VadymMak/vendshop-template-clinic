@@ -235,7 +235,7 @@
 .ttnSave {
   height: 44px;
   padding: 0 16px;
-  background: #1e293b;
+  background: var(--color-surface);
   color: #fff;
   border: none;
   border-radius: 9px;

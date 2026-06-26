@@ -20,7 +20,7 @@
 }
 
 .card {
-  background: #161616;
+  background: var(--color-surface);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 14px;
   padding: 22px;
@@ -81,7 +81,7 @@
   flex-wrap: wrap;
   gap: 8px 28px;
   font-size: 14px;
-  color: #888;
+  color: var(--color-text-muted);
   margin-bottom: 16px;
 }
 
@@ -93,7 +93,7 @@
 .progress {
   height: 8px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--color-bg-subtle);
   overflow: hidden;
   margin-bottom: 18px;
 }
@@ -143,7 +143,7 @@
 
 .hint {
   font-size: 13px;
-  color: #888;
+  color: var(--color-text-muted);
   margin: 12px 0 0;
 }
 
@@ -243,7 +243,7 @@
   font-size: 14px;
   font-weight: 500;
   color: #fff;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid var(--color-border);
 }
 
 .field {
@@ -269,7 +269,7 @@
   font-family: inherit;
   font-size: 14px;
   color: #fff;
-  background: #111;
+  background: var(--color-surface);
   outline: none;
   transition: border-color 150ms ease;
 }
@@ -321,7 +321,7 @@
   padding: 11px 12px;
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 10px;
-  background: #111;
+  background: var(--color-surface);
 }
 
 .dragHandle {
@@ -356,7 +356,7 @@
   width: 44px;
   height: 25px;
   border-radius: 999px;
-  background: #333;
+  background: var(--color-bg-subtle);
   position: relative;
   transition: background 150ms ease;
 }
@@ -410,7 +410,7 @@
 }
 
 .tableWrap {
-  background: #161616;
+  background: var(--color-surface);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 14px;
   overflow-x: auto;
@@ -426,17 +426,17 @@
   text-align: left;
   font-size: 11px;
   font-weight: 600;
-  color: #888;
+  color: var(--color-text-muted);
   text-transform: uppercase;
   letter-spacing: 0.04em;
   padding: 14px 16px;
-  background: #111;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
 }
 
 .table td {
   padding: 13px 16px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid var(--color-border);
   color: #fff;
   vertical-align: top;
 }
@@ -446,7 +446,7 @@
 }
 
 .convDate {
-  color: #888;
+  color: var(--color-text-muted);
   white-space: nowrap;
 }
 
@@ -470,8 +470,8 @@
 }
 
 .notBought {
-  background: rgba(255, 255, 255, 0.08);
-  color: #888;
+  background: var(--color-bg-subtle);
+  color: var(--color-text-muted);
 }
 
 /* ── Status bar ──────────────────────────────────── */
@@ -509,8 +509,8 @@
   align-items: center;
   gap: 6px;
   padding: 6px 14px;
-  background: rgba(255, 255, 255, 0.04);
-  color: #888;
+  background: var(--color-bg-subtle);
+  color: var(--color-text-muted);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 999px;
   font-size: 13px;
@@ -536,7 +536,7 @@
 
 /* ── Chat ─────────────────────────────────────────── */
 .chatCard {
-  background: #161616;
+  background: var(--color-surface);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 14px;
   display: flex;
@@ -551,7 +551,7 @@
   align-items: center;
   gap: 10px;
   padding: 18px 22px 16px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid var(--color-border);
   color: #B87333;
 }
 
@@ -568,7 +568,7 @@
   height: 32px;
   padding: 0 12px;
   background: transparent;
-  color: #888;
+  color: var(--color-text-muted);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   font-family: inherit;
@@ -600,7 +600,7 @@
   justify-content: center;
   gap: 14px;
   flex: 1;
-  color: #888;
+  color: var(--color-text-muted);
   text-align: center;
   line-height: 1.6;
 }
@@ -713,14 +713,14 @@
   flex-wrap: wrap;
   gap: 8px;
   padding: 10px 22px 16px;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-top: 1px solid var(--color-border);
 }
 
 .chatSuggestion {
   height: 34px;
   padding: 0 14px;
   background: transparent;
-  color: #888;
+  color: var(--color-text-muted);
   border: 1.5px solid rgba(255, 255, 255, 0.1);
   border-radius: 999px;
   font-family: inherit;
@@ -741,7 +741,7 @@
   display: flex;
   gap: 10px;
   padding: 14px 22px 18px;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-top: 1px solid var(--color-border);
 }
 
 .chatTextarea {
@@ -752,7 +752,7 @@
   font-family: inherit;
   font-size: 14px;
   color: #fff;
-  background: #111;
+  background: var(--color-surface);
   outline: none;
   resize: none;
   line-height: 1.5;
@@ -806,7 +806,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #888;
+  color: var(--color-text-muted);
   transition: border-color 150ms, color 150ms;
   flex-shrink: 0;
 }
@@ -829,7 +829,7 @@
 }
 
 .modal {
-  background: #161616;
+  background: var(--color-surface);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 14px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
@@ -867,7 +867,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #888;
+  color: var(--color-text-muted);
   font-size: 18px;
   line-height: 1;
   transition: border-color 150ms, color 150ms;
@@ -882,7 +882,7 @@
 .modalTabs {
   display: flex;
   padding: 12px 22px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid var(--color-border);
   flex-shrink: 0;
 }
 
@@ -896,7 +896,7 @@
   font-family: inherit;
   font-size: 14px;
   font-weight: 600;
-  color: #888;
+  color: var(--color-text-muted);
   cursor: pointer;
   transition: color 150ms, border-color 150ms;
 }

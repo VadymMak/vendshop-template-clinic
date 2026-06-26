@@ -1813,3 +1813,39 @@ body {
 .hero__chip { background: rgba(var(--color-primary-rgb, 14,165,233), 0.12); border: 1px solid rgba(var(--color-primary-rgb, 14,165,233), 0.3); color: var(--color-text); border-radius: 2rem; padding: 0.3rem 0.75rem; font-size: 0.8rem; font-weight: 500; }
 .hero__price-anchor { font-size: 0.875rem; color: var(--color-text-muted); margin-bottom: 1.25rem; }
 .hero__price-anchor strong { color: var(--color-primary); font-size: 1rem; }
+
+/* ===== INSURANCE SECTION ===== */
+.insurance {
+  padding: 5rem 2rem;
+  background: var(--color-bg-card);
+  text-align: center;
+}
+.insurance__badges {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem auto 1.5rem;
+  max-width: 700px;
+}
+.insurance__badge {
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  border: 2px solid var(--color-gold);
+  border-radius: 2rem;
+  color: var(--color-gold);
+  font-size: 0.9rem;
+  font-weight: 600;
+  background: rgba(14, 165, 233, 0.06);
+  letter-spacing: 0.5px;
+  transition: background var(--transition), color var(--transition);
+}
+.insurance__badge:hover {
+  background: var(--color-gold);
+  color: #fff;
+}
+.insurance__subtitle {
+  color: var(--color-text-secondary);
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+}

@@ -8,6 +8,7 @@ import WhyUsSection from '@/components/sections/WhyUsSection';
 import GallerySection from '@/components/sections/GallerySection';
 import TeamSection from '@/components/sections/TeamSection';
 import TestimonialsSection from '@/components/sections/TestimonialsSection';
+import InsuranceSection from '@/components/sections/InsuranceSection';
 import BookingSection from '@/components/sections/BookingSection';
 import AboutSection from '@/components/sections/AboutSection';
 import ContactSection from '@/components/sections/ContactSection';
@@ -70,6 +71,7 @@ export default async function HomePage({
       <WhyUsSection />
       <GallerySection images={galleryImages} />
       <TeamSection />
+      <InsuranceSection />
       <TestimonialsSection testimonials={(dbTestimonials as typeof dbTestimonials).map((t) => ({
         id: t.id,
         name: t.customer.name ?? 'Klient',

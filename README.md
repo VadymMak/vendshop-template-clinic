@@ -2,6 +2,8 @@
 
 **Next.js 15 · TypeScript · Prisma 7 · Neon · Multilingual (SK/EN/DE/CS) · DACH Legal**
 
+**Default language: English** · Also available: SK / DE / CS
+
 **Live demo:** [dentcare.vercel.app](https://dentcare.vercel.app) *(coming soon)*
 
 Demo store: **DentCare Clinic** — professional dental clinic in Bratislava.

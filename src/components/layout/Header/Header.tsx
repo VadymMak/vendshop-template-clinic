@@ -2,18 +2,20 @@
 
 import Link from 'next/link';
 import { useState, useEffect, useRef } from 'react';
+import { useLocale, useTranslations } from 'next-intl';
 import { WHATSAPP_LINKS } from '@/lib/constants';
 import WhatsAppIcon from '@/components/ui/WhatsAppIcon';
 
-const NAV_LINKS = [
-  { href: '/sk/#sluzby',   label: 'Služby' },
-  { href: '/sk/#galeria',  label: 'Galéria' },
-  { href: '/sk/#tim',      label: 'Tím' },
-  { href: '/sk/#recenzie', label: 'Recenzie' },
-  { href: '/sk/#kontakt',  label: 'Kontakt' },
-];
-
 export default function Header({ logoUrl, storeName }: { logoUrl?: string; storeName?: string }) {
+  const locale = useLocale();
+  const t = useTranslations('Header');
+
+  const NAV_LINKS = [
+    { href: `/${locale}/#services`,  label: t('servicesServices') },
+    { href: `/${locale}/#gallery`,   label: t('servicesGallery') },
+    { href: `/${locale}/#team`,      label: t('servicesTeam') },
+    { href: `/${locale}/#contact`,   label: t('servicesContact') },
+  ];
   const [scrolled, setScrolled] = useState(false);
   const [visible, setVisible] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -65,8 +67,8 @@ export default function Header({ logoUrl, storeName }: { logoUrl?: string; store
               {link.label}
             </a>
           ))}
-          <a href="/sk/#rezervacia" className="header__btn-reserve">
-            Rezervácia
+          <a href={`/${locale}/#booking`} className="header__btn-reserve">
+            {t('servicesBookNow')}
           </a>
           <a
             href={WHATSAPP_LINKS.booking}
@@ -100,11 +102,11 @@ export default function Header({ logoUrl, storeName }: { logoUrl?: string; store
               </a>
             ))}
             <a
-              href="/sk/#rezervacia"
+              href={`/${locale}/#booking`}
               className="header__mobile-btn-reserve"
               onClick={() => setMenuOpen(false)}
             >
-              Rezervácia
+              {t('servicesBookNow')}
             </a>
             <a
               href={WHATSAPP_LINKS.booking}
